@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="DialogWindow" src="project://database/Assets/UnityTechnologies/UI/DialogWindow.uxml?fileID=9197481963319205126&amp;guid=92203c76062cfed4a8dbc91f651ec3fa&amp;type=3#DialogWindow" />
+    <ui:VisualElement name="HealthbarBackground" style="background-image: url(&apos;project://database/Assets/UnityTechnologies/Art/Sprites/UI/UIHealthFrame.png?fileID=21300000&amp;guid=2e9a3b284be34c14e809fdcd0f799ba1&amp;type=3#UIHealthFrame&apos;); height: 165px; -unity-background-scale-mode: scale-to-fit; width: 346px;">
+        <ui:VisualElement name="HealthbarContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 52px; width: 189px; position: absolute; top: 52px; left: 144px;">
+            <ui:VisualElement name="Healthbar" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/UnityTechnologies/Art/Sprites/UI/UIHealthBar.png?fileID=21300000&amp;guid=292bb6b60652e5541aa6fd8507b5087e&amp;type=3#UIHealthBar&apos;); -unity-background-scale-mode: stretch-to-fill; height: 100%; width: 50%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="CharacterPortrait" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/UnityTechnologies/Art/Sprites/UI/CharacterPortrait.png?fileID=21300000&amp;guid=ec73128b64458a947a9603ad250e5956&amp;type=3#CharacterPortrait&apos;); -unity-background-scale-mode: scale-to-fit; height: 135px; width: 152px; position: absolute; top: 12px; left: 20px;" />
+    </ui:VisualElement>
+    <ui:Instance template="DialogWindow" name="DialogWindow" style="position: absolute; bottom: 0; top: 70%; left: 10%; right: 10%;" />
+</ui:UXML>

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="NPCdialogue" src="project://database/Assets/UnityTechnologies/2DBeginnerAdventureGame/UI/NPCdialogue.uxml?fileID=9197481963319205126&amp;guid=deb3e23e3ec23b24baa3eae196a8d084&amp;type=3#NPCdialogue" />
+    <ui:VisualElement name="HealthBarBackground" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/UnityTechnologies/2DBeginnerAdventureGame/Art/Ruby/UI/UIHealthFrame.png?fileID=21300000&amp;guid=2e9a3b284be34c14e809fdcd0f799ba1&amp;type=3#UIHealthFrame&apos;); width: 28%; height: 20%; -unity-background-scale-mode: scale-to-fit;">
+        <ui:VisualElement name="HealthBarContainer" style="flex-grow: 1; position: absolute; height: 59px; width: 286px; top: 55px; left: 207px; min-height: 88px; max-height: 0; min-width: 10px; max-width: 279px; -unity-background-scale-mode: scale-to-fit;">
+            <ui:VisualElement name="HealthBar" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/UnityTechnologies/2DBeginnerAdventureGame/Art/Ruby/UI/UIHealthBar.png?fileID=21300000&amp;guid=292bb6b60652e5541aa6fd8507b5087e&amp;type=3#UIHealthBar&apos;); -unity-background-scale-mode: stretch-to-fill; position: relative;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Portrait" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/UnityTechnologies/2DBeginnerAdventureGame/Art/Ruby/UI/CharacterPortrait.png?fileID=21300000&amp;guid=ec73128b64458a947a9603ad250e5956&amp;type=3#CharacterPortrait&apos;); -unity-background-scale-mode: scale-to-fit; position: absolute; height: 306px; width: 190px; top: -54px; left: 50px;" />
+    </ui:VisualElement>
+    <ui:Instance template="NPCdialogue" name="NPCdialogue" style="position: absolute; left: 497px; top: 809px; height: 245px; width: 880px; display: flex; visibility: visible;" />
+</ui:UXML>

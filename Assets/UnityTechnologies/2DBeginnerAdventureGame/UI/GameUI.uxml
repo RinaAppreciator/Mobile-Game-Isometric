@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="HealthBarBackground" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/UnityTechnologies/2DBeginnerAdventureGame/Art/Ruby/UI/UIHealthFrame.png?fileID=21300000&amp;guid=2e9a3b284be34c14e809fdcd0f799ba1&amp;type=3#UIHealthFrame&apos;); width: 25%; height: 25%; -unity-background-scale-mode: scale-to-fit;">
+        <ui:VisualElement name="HealthBarContainer" style="flex-grow: 1; position: absolute; width: 97px; height: 47px; top: 91px; left: 141px; right: -158px;">
+            <ui:VisualElement name="HealthBar" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/UnityTechnologies/2DBeginnerAdventureGame/Art/Ruby/UI/UIHealthBar.png?fileID=21300000&amp;guid=292bb6b60652e5541aa6fd8507b5087e&amp;type=3#UIHealthBar&apos;); position: relative; width: 155px; height: 40px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="CharacterPortrait" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/UnityTechnologies/2DBeginnerAdventureGame/Art/Ruby/UI/CharacterPortrait.png?fileID=21300000&amp;guid=ec73128b64458a947a9603ad250e5956&amp;type=3#CharacterPortrait&apos;); -unity-background-scale-mode: scale-to-fit; position: absolute; height: 62%; width: 70%; top: 12px; left: -15px;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="DialogWindow" src="project://database/Assets/UnityTechnologies/ArtRuby/UI/DialogWindow.uxml?fileID=9197481963319205126&amp;guid=92203c76062cfed4a8dbc91f651ec3fa&amp;type=3#DialogWindow" />
+    <ui:VisualElement name="HealthbarBackground" style="background-image: url(&apos;project://database/Assets/UnityTechnologies/ArtDucko/Sprite/UIHealthFrameDucko.png?fileID=21300000&amp;guid=918e7a741c040c140a699a450f3d6e2d&amp;type=3#UIHealthFrameDucko&apos;); height: 165px; -unity-background-scale-mode: scale-to-fit; width: 346px;">
+        <ui:VisualElement name="HealthbarContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 52px; width: 189px; position: absolute; top: 52px; left: 144px;">
+            <ui:VisualElement name="Healthbar" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/UnityTechnologies/ArtDucko/Sprite/UIHealthBarDucko.png?fileID=21300000&amp;guid=335e35d6c24ef5141b778902f9d19a3b&amp;type=3#UIHealthBarDucko&apos;); -unity-background-scale-mode: stretch-to-fill; height: 100%; width: 50%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="CharacterPortrait" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/UnityTechnologies/ArtDucko/Sprite/CharacterPortraitDucko.png?fileID=21300000&amp;guid=f0485db37ba2b03449d2d7917160fcb1&amp;type=3#CharacterPortraitDucko&apos;); -unity-background-scale-mode: scale-to-fit; height: 135px; width: 129px; position: absolute; top: 12px; left: 6px;" />
+    </ui:VisualElement>
+    <ui:Instance template="DialogWindow" name="DialogWindow" style="position: absolute; left: 10%; top: 70%; right: 10%; bottom: 0;" />
+</ui:UXML>
