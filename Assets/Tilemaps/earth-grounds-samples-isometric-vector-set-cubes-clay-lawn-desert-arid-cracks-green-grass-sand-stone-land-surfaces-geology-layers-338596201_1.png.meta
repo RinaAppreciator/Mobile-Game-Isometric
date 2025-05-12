@@ -1,0 +1,813 @@
+fileFormatVersion: 2
+guid: 6ecb79c0f5bdb084caa8f263b3276185
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 365
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4dacc76da098b4fa09cf22b0b87fa3
+      internalID: -102496434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 365
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c5e386a2345be42b1e9fcfb1b641db
+      internalID: 1377191074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 365
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e5c7be802c30447abd4459d62c57ac
+      internalID: 862256921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_3
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 365
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237d820eefed69e4eb49fdcbf2246c9f
+      internalID: 2063711933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_4
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 365
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4234a8237b3aae042baa3b30f4c42d27
+      internalID: 1150404222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_5
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 365
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d56a5cc20841934c8d3ba9f0817950b
+      internalID: -985664742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_6
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 365
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4c2fbf402d2e144be2db57244d9815
+      internalID: -736461316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_7
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 365
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3eb351a40e6764586d592246955244
+      internalID: -880023591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_8
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 365
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c00d7a8eebd67f4cbe29e802e0f42ee
+      internalID: 558761765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_9
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 365
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337e1912dca21954d94986090aeda741
+      internalID: -531737245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 242
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5636624867ae5b348afb734da6d13eab
+      internalID: -576431603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_11
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 242
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3793165c3b94c7d48a7a8c547b8beafc
+      internalID: 1929471419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_12
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 242
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ceee707514747640b715ed974af680c
+      internalID: 436487651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_13
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 242
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3509de543d7c0046857cfd378978ff9
+      internalID: -1032435601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_14
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 242
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa206b083ce5fb4e9377cc8aa8cf728
+      internalID: -1817635549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_15
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 242
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a249b52024bbf40918b34d498b3158
+      internalID: 1408587215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_16
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 242
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ea790ecc475154bb85dfc9e64e9ada
+      internalID: -1955326025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_17
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 242
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc5b3e7a42f14a489360eb3ca931a82
+      internalID: 437183054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_18
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 242
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324b3aaf175b1234fa348d9d3ff5d9a0
+      internalID: -164850514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_19
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 242
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3e1972f30e5a041bd0f483fbb2809b
+      internalID: 343811206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_20
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 119
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f118653bdc147146899bd40db0eaae8
+      internalID: -487814494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_21
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 119
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be020031dd08c2f4585dcdb6bf6c00d6
+      internalID: -1184876488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_22
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 119
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f6b3dabe9ce3d49b05ef1d1de37cb8
+      internalID: 2102729098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_23
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 119
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1149f8a3b87fc34eb31ffeac4308c51
+      internalID: -1852202602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_24
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 119
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e15ee79216af5f40b81bcd401fc22f8
+      internalID: 1877925489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_25
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 119
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17752991712b30d4d964f6402d0313ad
+      internalID: 1164073953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_26
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 119
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2f79844da16414e836ed82e0dc6e52
+      internalID: 168440585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_27
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 119
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9837d11b52ed07649a034a5716f606c7
+      internalID: -229820284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_28
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 119
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43534c7543fdd2345998142e2597fe5d
+      internalID: 602543315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_29
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 119
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f52fcb126dd2824382b0ed51e14442f
+      internalID: -868561915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_0: -102496434
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_1: 1377191074
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_10: -576431603
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_11: 1929471419
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_12: 436487651
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_13: -1032435601
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_14: -1817635549
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_15: 1408587215
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_16: -1955326025
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_17: 437183054
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_18: -164850514
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_19: 343811206
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_2: 862256921
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_20: -487814494
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_21: -1184876488
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_22: 2102729098
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_23: -1852202602
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_24: 1877925489
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_25: 1164073953
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_26: 168440585
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_27: -229820284
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_28: 602543315
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_29: -868561915
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_3: 2063711933
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_4: 1150404222
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_5: -985664742
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_6: -736461316
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_7: -880023591
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_8: 558761765
+      earth-grounds-samples-isometric-vector-set-cubes-clay-lawn-desert-arid-cracks-green-grass-sand-stone-land-surfaces-geology-layers-338596201_1_9: -531737245
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

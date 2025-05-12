@@ -137,8 +137,6 @@ MonoBehaviour:
   HitEffectPrefab: {fileID: 6678004231684855409, guid: 68c61244ab47efd47a554c3871c6d283,
     type: 3}
   FixedClip: {fileID: 8300000, guid: 4e356d8e36201c14da953082c4d569ab, type: 3}
-  playerPrefab: {fileID: 4118738319124392714, guid: 1c27fe61eb1ba76428d7e557f52f20d3,
-    type: 3}
 --- !u!61 &3936291705522819693
 BoxCollider2D:
   m_ObjectHideFlags: 0

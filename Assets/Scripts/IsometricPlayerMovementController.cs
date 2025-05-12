@@ -2,9 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 public class IsometricPlayerMovementController : MonoBehaviour
 {
+    public Vector2 inputVector;
+
+    public inputManager RemotePlayerController;
 
     public float movementSpeed = 1f;
     IsometricCharacterRenderer isoRenderer;
@@ -16,6 +21,8 @@ public class IsometricPlayerMovementController : MonoBehaviour
     float jumpVelocity = 5f;
     float gravity = -9.8f;
     float verticalSpeed = 0f;
+    public Animator moves;
+    public int HP;
 
     Vector2 newPos;
 
@@ -26,13 +33,19 @@ public class IsometricPlayerMovementController : MonoBehaviour
         rbody = GetComponent<Rigidbody2D>();
         isoRenderer = GetComponentInChildren<IsometricCharacterRenderer>();
         swordController = GetComponentInChildren<SwordController>();
+        
     }
 
 
     public void Update()
     {
+        inputVector = RemotePlayerController.position;
+        if (RemotePlayerController.attackValue == 1 )
+        {
+            Debug.Log("attacking");
+            Attack();
+        }
 
-        Debug.Log(movement);
         if (Input.GetKeyDown(KeyCode.C))
         {
             Launch();
@@ -43,12 +56,6 @@ public class IsometricPlayerMovementController : MonoBehaviour
             Attack();
         }
 
-        //jump input
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
-        {
-            verticalSpeed = jumpVelocity;
-            isJumping = true;
-        }
 
     }
 
@@ -58,15 +65,23 @@ public class IsometricPlayerMovementController : MonoBehaviour
     void FixedUpdate()
     {
         Vector2 currentPos = rbody.position;
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
-        Vector2 inputVector = new Vector2(horizontalInput, verticalInput);
-        inputVector = Vector2.ClampMagnitude(inputVector, 1);
+
+
+
+        //float horizontalInput = Input.GetAxis("Horizontal");
+        //float verticalInput = Input.GetAxis("Vertical");
+
+
+
+        //Vector2 inputVector = new Vector2(horizontalInput, verticalInput);
+        //inputVector = Vector2.ClampMagnitude(inputVector, 1);
         movement = inputVector * movementSpeed;
         newPos = currentPos + movement * Time.fixedDeltaTime;
         isoRenderer.SetDirection(movement);
         rbody.MovePosition(newPos);
+
     }
+
 
     public void Launch()
     {
@@ -82,6 +97,25 @@ public class IsometricPlayerMovementController : MonoBehaviour
         swordController.Attack(launchDirection);
     }
 
-   
-        
+    public void Slowdown()
+    {
+        moves.speed = 0;
+        rbody.simulated = false;
+        StartCoroutine(RestoreSpeedCoroutine());
+    }
+
+    IEnumerator RestoreSpeedCoroutine()
+    {
+        yield return new WaitForSeconds(0.2f);
+        moves.speed = 1f;
+        rbody.simulated = true;
+
+    }
+
+    public void TakeDamage()
+    {
+        HP -= 2;
+    }
+
+
 }
